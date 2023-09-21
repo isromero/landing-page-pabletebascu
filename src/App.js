@@ -1,10 +1,12 @@
 import './App.css';
-import Newsletter from './components/Newsletter';
+import Header from './components/Header';
+import Nav from './components/Nav';
 
 function App() {
   return (
     <div className="App">
-      <Newsletter />
+      <Nav />
+      <Header />
     </div>
   );
 }

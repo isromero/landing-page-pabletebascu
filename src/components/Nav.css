@@ -1,0 +1,33 @@
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0; 
+  background-color: white;
+}
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+  max-width: 70%;
+  margin: 0 auto;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-right: 3rem;
+}
+
+.logo h1 {
+  font-size: 2.5em;
+}
+
+.fa-brands {
+  font-size: 2em;
+  color: black;
+}

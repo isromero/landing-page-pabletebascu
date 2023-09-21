@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 70%;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.header-content {
+  display: flex;
+  gap: 5rem;
+}
+
+.header-text {
+  max-width: 100ch;
+}
+
+.header-text h1 {
+  font-size: 3em;
+  margin-bottom: 1rem;
+}
+
+.header-text p {
+  font-size: 1.3em;
+  margin-bottom: 1.5rem;
+}
+
+.header-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
