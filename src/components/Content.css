@@ -1,0 +1,17 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 60%;
+  margin: 10rem auto 0;
+}
+
+.content h2 {
+  font-size: 2em;
+  margin-bottom: 1.5rem;
+}
+
+.content p {
+  font-size: 1.3em;
+  margin-bottom: 1.5rem;
+}

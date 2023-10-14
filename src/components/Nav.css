@@ -12,7 +12,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   flex-grow: 1;
-  max-width: 70%;
+  max-width: 60%;
   margin: 0 auto;
 }
 nav ul {
@@ -21,6 +21,19 @@ nav ul {
   align-items: center;
   width: 100%;
   margin-right: 3rem;
+}
+
+nav ul li {
+  cursor: pointer;
+}
+
+.logo-rrss-li {
+  font-size: 1.8em;
+  padding: 0.3rem;
+}
+
+.youtube-logo {
+  margin-left: 1.8rem;
 }
 
 .logo h1 {

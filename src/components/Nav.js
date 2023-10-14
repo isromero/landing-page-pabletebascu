@@ -1,5 +1,6 @@
 import "./Nav.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faYoutube, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const Nav = () => {
   return (
@@ -13,8 +14,8 @@ const Nav = () => {
             <li>Quién Soy</li>
             <li>????</li>
             <li>???</li>
-            <li><FontAwesomeIcon icon="fa-brands fa-youtube"/></li>
-            <li><FontAwesomeIcon icon="fa-brands fa-instagram" /></li>
+            <li className="logo-rrss-li youtube-logo"><FontAwesomeIcon icon={faYoutube} /></li>
+            <li className="logo-rrss-li"><FontAwesomeIcon icon={faInstagram} /></li>
           </ul>
         </div>
       </div>
