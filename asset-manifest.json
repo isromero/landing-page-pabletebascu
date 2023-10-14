@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/landing-page-pabletebascu/static/css/main.ec0244d5.css",
+    "main.js": "/landing-page-pabletebascu/static/js/main.1444b30b.js",
+    "index.html": "/landing-page-pabletebascu/index.html",
+    "main.ec0244d5.css.map": "/landing-page-pabletebascu/static/css/main.ec0244d5.css.map",
+    "main.1444b30b.js.map": "/landing-page-pabletebascu/static/js/main.1444b30b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec0244d5.css",
+    "static/js/main.1444b30b.js"
+  ]
+}
