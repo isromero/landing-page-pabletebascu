@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   max-width: 60%;
-  margin: 10rem auto 0;
+  margin: 14rem auto 0;
 }
 
 .content h2 {
@@ -14,4 +14,45 @@
 .content p {
   font-size: 1.3em;
   margin-bottom: 1.5rem;
+}
+
+.box-newsletter {
+  max-width: 100%;
+  flex-direction: column;
+  margin: 2rem 0;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.box-fotos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 2rem 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagen-mono-pablete {
+  max-width: 30%;
+}
+
+.logos-rrss {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.logo-rrss {
+  font-size: 1.8em;
+  cursor: pointer;
+}
+
+.logo-rrss:hover {
+  color: #ffae00;
 }

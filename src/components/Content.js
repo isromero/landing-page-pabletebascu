@@ -1,5 +1,9 @@
 import "./Content.css";
+import fotomono1 from "../img/haciendo-el-mono1-foto-pablete.jpg";
+import fotomono2 from "../img/haciendo-el-mono2-foto-pablete.jpg";
 import Newsletter from "./Newsletter";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faYoutube, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const Content = () => {
   return (
@@ -15,11 +19,11 @@ const Content = () => {
           turno contándome lo mismo que me cuentan todos".
         </i>
       </p>
-      <p>- Que cómo voy a bajar de peso.</p>
-      <p>- Que cómo voy a ser Usain BOLT en las próximas olimpiadas.</p>
-      <p>
-        - Que cómo voy a comer mejor, a adquirir hábitos saludables y a moverme
-        mejor.
+      <p style={{marginLeft: "8rem"}}>"Que cómo voy a bajar de peso."</p>
+      <p style={{marginLeft: "14rem"}}>"Que cómo voy a ser Usain BOLT en las próximas olimpiadas."</p>
+      <p style={{marginLeft: "18rem"}}>
+        "Que cómo voy a comer mejor, a adquirir hábitos saludables y a moverme
+        mejor."
       </p>
       <br />
       <p>
@@ -45,12 +49,14 @@ const Content = () => {
       <br />
       <p>Ah vale que te interesa esto último.</p>
       <p>Pues te desarrollo este último punto.</p>
-      <p>
-        Si dejas <strong>tu correo</strong> aquí, <strong>te REGALO</strong> un{" "}
-        <strong>MINICURSO DE HÁBITOS</strong> para que{" "}
-        <strong>EMPIECES DESDE YA</strong> a implementarlos en tu vida.
-      </p>
-      <Newsletter />
+      <div className="box-newsletter">
+        <p>
+          Si dejas <strong>tu correo</strong> aquí, <strong>te REGALO</strong> un{" "}
+          <strong>MINICURSO DE HÁBITOS</strong> para que{" "}
+          <strong>EMPIECES DESDE YA</strong> a implementarlos en tu vida.
+        </p>
+        <Newsletter />
+      </div>
       <h2>Y ahora la historia.</h2>
       <br />
       <p>
@@ -77,6 +83,10 @@ const Content = () => {
         <strong>Todo es entrenamiento.</strong>
       </p>
       <p>Y por eso, me gusta entrenar, para la VIDA.</p>
+      <div className="box-fotos">
+        <img className="imagen-mono-pablete" src={fotomono1} alt="haciendo-el-mono-foto-pablete" />
+        <img className="imagen-mono-pablete" src={fotomono2} alt="haciendo-el-mono-foto-pablete" />
+      </div>
       <p>
         Y es lo que quiero que entiendas, que tengo una perspectiva peculiar
         sobre el entrenamiento. Me gusta hacer el mono y todo esto lo he ido
@@ -141,6 +151,11 @@ const Content = () => {
         eliminar cualquier otro que no te haga bien, deja{" "}
         <strong>tu correo</strong> por aquí.
       </p>
+      <br />
+      <div className="logos-rrss">
+        <FontAwesomeIcon icon={faYoutube} className="logo-rrss"/>
+        <FontAwesomeIcon icon={faInstagram} className="logo-rrss"/>
+      </div>
       <br />
       <br />
     </div>
