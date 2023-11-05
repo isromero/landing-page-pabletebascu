@@ -19,11 +19,11 @@ const Content = () => {
           turno contándome lo mismo que me cuentan todos".
         </i>
       </p>
-      <p style={{marginLeft: "8rem"}}>"Que cómo voy a bajar de peso."</p>
-      <p style={{marginLeft: "14rem"}}>"Que cómo voy a ser Usain BOLT en las próximas olimpiadas."</p>
+      <p style={{marginLeft: "8rem"}}><i>"Que cómo voy a bajar de peso."</i></p>
+      <p style={{marginLeft: "14rem"}}><i>"Que cómo voy a ser Usain BOLT en las próximas olimpiadas."</i></p>
       <p style={{marginLeft: "18rem"}}>
-        "Que cómo voy a comer mejor, a adquirir hábitos saludables y a moverme
-        mejor."
+        <i>"Que cómo voy a comer mejor, a adquirir hábitos saludables y a moverme
+        mejor."</i>
       </p>
       <br />
       <p>
@@ -138,13 +138,14 @@ const Content = () => {
       </p>
       <p>Y hasta aquí mi historia.</p>
       <h2>Si te apetece que sigamos charlando...</h2>
-      <p>
-        Por aquí abajo te dejo una cajita para que veas todos mis MOVIMIENTOS.
-      </p>
-      <br />
-      <p>"MOVEMENT IS LIFE"</p>
-      <br />
-      <Newsletter />
+      <div className="box-newsletter">
+        <p>
+          Si dejas <strong>tu correo</strong> aquí, <strong>te REGALO</strong> un{" "}
+          <strong>MINICURSO DE HÁBITOS</strong> para que{" "}
+          <strong>EMPIECES DESDE YA</strong> a implementarlos en tu vida.
+        </p>
+        <Newsletter />
+      </div>
       <p>
         Si quieres conseguir un <strong>minicurso de hábitos</strong> para poder
         implementar el deporte o cualquier hábito saludable en tu vida, así como
