@@ -19,9 +19,9 @@ const Content = () => {
           turno contándome lo mismo que me cuentan todos".
         </i>
       </p>
-      <p style={{marginLeft: "8rem"}}><i>"Que cómo voy a bajar de peso."</i></p>
-      <p style={{marginLeft: "14rem"}}><i>"Que cómo voy a ser Usain BOLT en las próximas olimpiadas."</i></p>
-      <p style={{marginLeft: "18rem"}}>
+      <p className="indent1"><i>"Que cómo voy a bajar de peso."</i></p>
+      <p className="indent2"><i>"Que cómo voy a ser Usain BOLT en las próximas olimpiadas."</i></p>
+      <p className="indent3">
         <i>"Que cómo voy a comer mejor, a adquirir hábitos saludables y a moverme
         mejor."</i>
       </p>
