@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/landing-page-pabletebascu/static/css/main.d33d7844.css",
+    "main.css": "/landing-page-pabletebascu/static/css/main.841bf5f7.css",
     "main.js": "/landing-page-pabletebascu/static/js/main.fdfcba93.js",
     "static/media/haciendo-el-mono1-foto-pablete.jpg": "/landing-page-pabletebascu/static/media/haciendo-el-mono1-foto-pablete.805a26c83934752851ef.jpg",
     "static/media/haciendo-el-mono2-foto-pablete.jpg": "/landing-page-pabletebascu/static/media/haciendo-el-mono2-foto-pablete.4922e5f4d56606adeee4.jpg",
     "static/media/banner-blanco-pablete.jpeg": "/landing-page-pabletebascu/static/media/banner-blanco-pablete.c288d08fc8b94e1f6599.jpeg",
     "index.html": "/landing-page-pabletebascu/index.html",
-    "main.d33d7844.css.map": "/landing-page-pabletebascu/static/css/main.d33d7844.css.map",
+    "main.841bf5f7.css.map": "/landing-page-pabletebascu/static/css/main.841bf5f7.css.map",
     "main.fdfcba93.js.map": "/landing-page-pabletebascu/static/js/main.fdfcba93.js.map"
   },
   "entrypoints": [
-    "static/css/main.d33d7844.css",
+    "static/css/main.841bf5f7.css",
     "static/js/main.fdfcba93.js"
   ]
 }
