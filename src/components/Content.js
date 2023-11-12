@@ -154,8 +154,8 @@ const Content = () => {
       </p>
       <br />
       <div className="logos-rrss">
-        <FontAwesomeIcon icon={faYoutube} className="logo-rrss"/>
-        <FontAwesomeIcon icon={faInstagram} className="logo-rrss"/>
+        <a href="https://www.youtube.com/@PableteBascu"><FontAwesomeIcon icon={faYoutube} className="logo-rrss"/></a>
+        <a href="https://www.instagram.com/pabletebascu/"><FontAwesomeIcon icon={faInstagram} className="logo-rrss"/></a>
       </div>
       <br />
       <br />
